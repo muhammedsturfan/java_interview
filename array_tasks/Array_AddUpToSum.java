@@ -18,7 +18,7 @@ public class Array_AddUpToSum {
     public static void main(String[] args) {
 
         int[] arr = {8, 7, 2, 5, 3, 1};
-        int sum = 10;
+        int sum = 8;
 
         int num1 = 0;
         int num2 = 0;
