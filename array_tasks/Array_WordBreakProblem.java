@@ -38,12 +38,6 @@ public class Array_WordBreakProblem {
                }
             }
         }
-
        String result = (words.size() > 0) ? "YES" : "NO";
-
     }
-
-
-
-
 }

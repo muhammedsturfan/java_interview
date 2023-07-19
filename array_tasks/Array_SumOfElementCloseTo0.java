@@ -27,6 +27,4 @@ public class Array_SumOfElementCloseTo0 {
             }
         return z;
     }
-
-
 }

@@ -5,30 +5,29 @@ import java.util.List;
 
 public class List_MoveAllZerosToTheEnd_SOLVING {
 
-
     public static void main(String[] args) {
-        List<Integer> numbers = new ArrayList<>();
-        numbers.add(0);
-        numbers.add(1);
-        numbers.add(9);
-        numbers.add(0);
-        numbers.add(5);
-
-        movingZerosToEnd(numbers);
-        System.out.println(numbers);
-
+        List<Integer> list = new ArrayList<>();
+        list.add(0);
+        list.add(1);
+        list.add(0);
+        list.add(6);
+        list.add(5);
+        list.add(9);
+        moveZerosToEnd(list);
     }
 
-    static void movingZerosToEnd(List<Integer> numbers){
-        int countZeros=0;
-        int size = numbers.size();
+    static void moveZerosToEnd(List<Integer> list) {
+        int count = 0;
 
-        for (int i = 0; i < size-countZeros; i++){
-            if (numbers.get(i) == 0){
-                numbers.remove(i);
-                numbers.remove(0);
-                countZeros++;
+        for (int i = 0; i < list.size(); i++) {
+            if (list.get(i) == 0) {
+                count ++;
+                list.remove(i);
                 i--;
+            }
+
+            for (int j = 0 ; j < count; j++){
+                list.add(0);
             }
         }
     }
