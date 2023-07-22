@@ -26,7 +26,6 @@ public class List_RemovePalindromeStrings {
     }
 
 
-
     //solution 2:
     public List<String> removePalindromes2(List<String> list) {
         list.removeIf(p -> isPalindrome(p));
@@ -40,7 +39,4 @@ public class List_RemovePalindromeStrings {
         }
         return reversed.equalsIgnoreCase(str);
     }
-
-
-
 }
