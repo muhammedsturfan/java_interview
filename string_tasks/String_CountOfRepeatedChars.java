@@ -15,7 +15,7 @@ public class String_CountOfRepeatedChars {
             if(temp == c) {
                 count++;
             } else {
-                result +=  ""+temp + count;
+                result += ""+temp + count;
                 temp = c;
                 count = 1;
             }
