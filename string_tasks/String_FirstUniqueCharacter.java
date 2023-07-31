@@ -17,7 +17,6 @@ public class String_FirstUniqueCharacter {
                     frequency++;
                 }
             }
-
             if (frequency == 1) {
                 return str.charAt(i);
             }
