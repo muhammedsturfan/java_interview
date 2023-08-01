@@ -7,6 +7,10 @@ public class String_IndexOfFirstUniqueChar {
     If it doesn't exist, return -1.
      */
 
+    public static void main(String[] args) {
+        String s = "aabbcddeff";
+        System.out.println(indexOfFirstNonRepeatingChar(s));
+    }
     public static int indexOfFirstNonRepeatingChar(String s) {
         for (int i = 0; i < s.length(); i++) {
             int count = 0;
