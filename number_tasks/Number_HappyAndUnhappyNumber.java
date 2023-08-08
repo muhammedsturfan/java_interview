@@ -28,4 +28,9 @@ public class Number_HappyAndUnhappyNumber {
         }
     }
 
+    public static void main(String[] args) {
+        int n = 1;
+        solution(n);
+    }
+
 }

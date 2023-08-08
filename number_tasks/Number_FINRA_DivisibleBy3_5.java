@@ -10,7 +10,7 @@ public class Number_FINRA_DivisibleBy3_5 {
      */
 
 
-    public static void FINRA1() {
+    public static void main(String[] args) {
 
         String result = "";
 
@@ -26,7 +26,7 @@ public class Number_FINRA_DivisibleBy3_5 {
             }
         }
 
-        System.out.println(result);
+        System.out.print(result);
 
     }
 

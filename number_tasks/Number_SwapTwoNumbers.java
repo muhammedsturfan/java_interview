@@ -3,11 +3,12 @@ package number_tasks;
 public class Number_SwapTwoNumbers {
 
     /*
-    Swap two variable' values without using a third variable
+    Swap two variable values without using a third variable
      */
 
     //solution 1
     public static void swap1(int a, int b) {
+        // a = 1 b = 2
         a = a + b;
         b = a - b;
         a = a - b;
