@@ -3,8 +3,8 @@ package number_tasks;
 public class Number_HappyAndUnhappyNumber {
 
     /*
-    1. write a function that can identify if a number is a happy Number or unhappy number
-     */
+       1. write a function that can identify if a number is a happy Number or unhappy number
+    */
 
 
     public static void solution(int n){
@@ -27,10 +27,8 @@ public class Number_HappyAndUnhappyNumber {
             System.out.println("Unhappy number");
         }
     }
-
     public static void main(String[] args) {
         int n = 1;
         solution(n);
     }
-
 }

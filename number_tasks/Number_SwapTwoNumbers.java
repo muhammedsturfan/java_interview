@@ -9,6 +9,7 @@ public class Number_SwapTwoNumbers {
     //solution 1
     public static void swap1(int a, int b) {
         // a = 1 b = 2
+
         a = a + b;
         b = a - b;
         a = a - b;
