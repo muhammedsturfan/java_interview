@@ -21,7 +21,7 @@ public class Map_SortByValues_SOLVING {
         map = new LinkedHashMap<>();
 
         for (Map.Entry<String,Integer> each : list){
-            System.out.println(each);
+            map.put(each.getKey(), each.getValue());
         }
         return map;
     }
