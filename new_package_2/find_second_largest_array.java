@@ -8,7 +8,6 @@ public class find_second_largest_array {
         int[] arr = {1,7,3,6,9,3};
         System.out.println(SecondLargest(arr));
     }
-git a
     static int SecondLargest (int[] arr){
         int max = Integer.MIN_VALUE;
         int secondMax = Integer.MIN_VALUE;
