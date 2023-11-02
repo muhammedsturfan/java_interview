@@ -24,15 +24,14 @@ public class Array_SecondLargestNumber {
 
         for (int i = 0; i < arr.length; i++) {
 
-                if (arr[i] > firstMax) {
+            if (arr[i] > firstMax) {
+                secondMax = firstMax; // When firstMax is updated, secondMax should hold the old value of firstMax
                 firstMax = arr[i];
+            } else if (arr[i] > secondMax && arr[i] != firstMax) { // additional check to ensure that secondMax is not the same as firstMax
+                secondMax = arr[i];
             }
-                if (firstMax > arr[i]) {
-                    if (arr[i] > secondMax) {
-                        secondMax = arr[i];
-                    }
-                }
-            }
+        }
+
         return secondMax;
     }
 }

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/int/int.iml" filepath="$PROJECT_DIR$/int/int.iml" />
       <module fileurl="file://$PROJECT_DIR$/interview_tasks.iml" filepath="$PROJECT_DIR$/interview_tasks.iml" />
     </modules>
   </component>

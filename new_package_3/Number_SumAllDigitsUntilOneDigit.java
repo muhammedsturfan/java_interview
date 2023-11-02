@@ -7,6 +7,7 @@ public class Number_SumAllDigitsUntilOneDigit {
 
                 input: 45659
 
+
                 output:
 
                 29
@@ -20,6 +21,24 @@ public class Number_SumAllDigitsUntilOneDigit {
      */
 
     public static void main(String[] args) {
+        int number = 45659;
+        System.out.println(sumAllDigit(number));
 
+    }
+
+    static int sumAllDigit(int number) {
+
+        while (true) {
+            int sum = 0;
+            while (number >0) {
+                sum += number%10; //9 + 5 + 6 + 5 +4
+                number /= 10; //45659 remove 9
+
+            }
+            number = sum;
+            if (number<10){
+                return number;
+            }
+        }
     }
 }
