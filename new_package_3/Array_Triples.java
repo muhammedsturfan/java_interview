@@ -17,6 +17,30 @@ public class Array_Triples {
         System.out.println(noTriples(arr));
         Output:
         false
-
      */
+
+    public static void main(String[] args) {
+        int[] arr = {1,2,1,2,3,2,2,2};
+        System.out.println(tripleArray(arr));
+    }
+
+    static boolean tripleArray (int[] arr){
+
+        for (int i = 0 ; i < arr.length-1;i++) {
+            int count = 0;
+            for (int j = i+1; j < arr.length - 1; j++) {
+
+                if (arr[i] == arr[j]) {
+                    count++;
+                    if (count == 2) {
+                        return true;
+                    }
+                }
+                if (arr[i] != arr[j]) {
+                    count = 0;
+                }
+            }
+        }
+        return false;
+    }
 }

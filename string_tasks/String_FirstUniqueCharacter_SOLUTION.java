@@ -5,12 +5,10 @@ public class String_FirstUniqueCharacter_SOLUTION {
     /*
     WRITE A PROGRAM RETURN FIRST UNIQUE CHAR
 
-    firstly find unique (I'll use for loop, nested for loop, compare all char step by step
-    then we will need find first char. but i need if condition for find unique chars.
      */
 
     public static void main(String[] args) {
-        String str = "europaleague";
+        String str = "euraopalegue";
         System.out.println(firstUnique(str));
     }
 
