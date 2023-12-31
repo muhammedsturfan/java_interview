@@ -1,1 +1,7 @@
 Hello
+
+@FindBy(id="usernameid")
+public WebElement username
+
+@FindBy(id="passwordid")
+public WebElement password
