@@ -1,4 +1,4 @@
-package number;
+package numbers;
 
 import java.util.List;
 
